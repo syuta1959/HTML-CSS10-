@@ -25,8 +25,13 @@ main {
 .step-box {
   width: 300px;
   margin-right: 30px;
+  padding: 10px;
   background-color: #eee;
   position: relative;
+}
+
+.step-box:last-child {
+  margin-right: 0;
 }
 
 .step-number {
@@ -39,7 +44,6 @@ main {
 
 .step-image1 {
   height: 150px;
-  margin: 10px;
   background-image: url(img/flow01.png);
   background-size: cover;
   background-position: bottom;
@@ -47,7 +51,6 @@ main {
 
 .step-image2 {
   height: 150px;
-  margin: 10px;
   background-image: url(img/flow02.png);
   background-size: cover;
   background-position: bottom;
@@ -55,7 +58,6 @@ main {
 
 .step-image3 {
   height: 150px;
-  margin: 10px;
   background-image: url(img/flow03.png);
   background-size: cover;
   background-position: bottom;
